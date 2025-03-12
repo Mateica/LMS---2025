@@ -3,12 +3,12 @@ import { RegisteredUser } from "./registered-user";
 import { ScientificField } from "./scientific-field";
 
 export interface Teacher {
-    id : number
-	user : RegisteredUser
-	firstName : string
-	lastName : string
-    umcn : string
-    title : Title
-    scientificField : ScientificField
-    active : boolean
+    id : number;
+	user : RegisteredUser;
+	firstName : string;
+	lastName : string;
+    umcn : string;
+    title : Title;
+    scientificField : ScientificField;
+    active : boolean;
 }

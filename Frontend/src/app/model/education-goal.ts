@@ -1,8 +1,8 @@
-import { Aftermath } from "./aftermath"
+import { Outcome } from "./outcome"
 
 export interface EducationGoal {
-    id : number
-    description : string
-    aftermath? : Aftermath
-    active : boolean
+    id : number;
+    description : string;
+    outcome? : Outcome;
+    active : boolean;
 }

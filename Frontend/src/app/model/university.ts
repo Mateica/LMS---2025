@@ -3,11 +3,11 @@ import { Faculty } from "./faculty"
 import { Teacher } from "./teacher"
 
 export interface University {
-    id : number
-    name : string
-	dateEstablished : Date
-	address : Address
-	rector : Teacher
+    id : number;
+    name : string;
+	dateEstablished : Date;
+	address : Address;
+	rector : Teacher;
 	faculties : Faculty[];
-	active : boolean
+	active : boolean;
 }

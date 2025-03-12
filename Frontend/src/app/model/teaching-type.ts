@@ -1,5 +1,5 @@
 export interface TeachingType {
-    id : number
-	name : string
-	active : boolean
+    id : number;
+	name : string;
+	active : boolean;
 }

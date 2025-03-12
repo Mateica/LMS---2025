@@ -1,5 +1,5 @@
 export interface EvaluationInstrument {
-	id : number
+	id : number;
 	file : File;
-	active : boolean
+	active : boolean;
 }
